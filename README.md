@@ -13,7 +13,7 @@ Use Orinex to:
 
 ## How to Using it
 
-launch mock-server which open 8000 for tcp and 8080 for http protocol
+launch mock-server which open 3000 for http protocol
 
 ```go
 cd mock_server
@@ -21,7 +21,7 @@ go run mock_server.go
 curl http://localhost:8080/status
 ```
 
-launch orinex
+launch orinex which open 8000 for tcp and 8080 for http protocol
 
 ```go
 cd orinex
