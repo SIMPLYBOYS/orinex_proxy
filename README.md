@@ -29,7 +29,7 @@ go get github.com/shirou/gopsutil/cpu
 go run .
 ```
 
-launch client
+launch client and run test
 ```go
 cd client
 go test -args "c 1 m helloworld"
