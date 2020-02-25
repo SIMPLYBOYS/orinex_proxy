@@ -31,6 +31,7 @@ go run .
 
 launch client
 ```go
+cd client
 go test -args "c 1 m helloworld"
 ```
 
